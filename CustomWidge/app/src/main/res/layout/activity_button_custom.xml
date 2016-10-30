@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mycustomtoggle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itcast.zbc.customwidge.UI.ButtonCustomActivity">s
+
+    <!--没有使用自定义属性之前的代码-->
+    <!--<com.itcast.zbc.customwidge.Widge.MyToggleButton-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/view_toggle_custom"-->
+    <!--&gt;</com.itcast.zbc.customwidge.Widge.MyToggleButton>-->
+
+    <!--下面是使用自定义属性改进后的代码-->
+    <com.itcast.zbc.customwidge.Widge.MyToggleButton
+        android:id="@+id/view_toggle_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        mycustomtoggle:iconfort="@drawable/slide_icon2"
+        mycustomtoggle:iconbackgroud="@drawable/slide_background2"
+        mycustomtoggle:togglestate="false">
+
+    </com.itcast.zbc.customwidge.Widge.MyToggleButton>
+
+</RelativeLayout>

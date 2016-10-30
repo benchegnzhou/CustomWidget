@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itcast.zbc.customwidge.MainActivity">
+
+   <Button
+       android:gravity="center"
+       android:padding="8dp"
+       android:id="@+id/btn_toggle_custom"
+       android:textColor="#DD000000"
+       android:text="自定义滑动开关"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:gravity="center"
+       android:padding="8dp"
+       android:layout_marginTop="6dp"
+       android:id="@+id/btn_pulltorefresh_custom"
+       android:textColor="#DD000000"
+       android:text="自定义下拉刷新的布局"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:gravity="center"
+       android:padding="8dp"
+       android:layout_marginTop="6dp"
+       android:id="@+id/btn_custom_big_picture_loading"
+       android:textColor="#DD000000"
+       android:text="自定义实现超大图片分块加载"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:gravity="center"
+       android:padding="8dp"
+       android:layout_marginTop="6dp"
+       android:id="@+id/btn_big_picture_loading"
+       android:textColor="#DD000000"
+       android:text="框架结构实现超大图片分块加载"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+</LinearLayout>

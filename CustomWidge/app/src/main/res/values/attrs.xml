@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyToggleButton">
+        <attr name="iconbackgroud" format="reference" />
+        <attr name="iconfort" format="reference" />
+        <attr name="togglestate" format="boolean" />
+    </declare-styleable>
+    <!--<attr name="src" format="reference" />属性名+后面的是变量的类型-->
+
+</resources>
